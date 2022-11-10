@@ -20,6 +20,8 @@ import lombok.Data;
 public class EmailModel implements Serializable {
 	private static final long serialVersionUID = 1L;
 
+	// a senha da chave spring.mail.password= em app.prop deve ser gerada no google
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
